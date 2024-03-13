@@ -2,7 +2,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react';
 
-export default function Card({title, subtitle, img, link}){
+export default function Card({title, subtitle, img, link, techs}){
+
+  const tags = []
+
+  for(let i = 0; i < techs.length; i++){
+    tags.push(<li key={i}>{techs[i]}</li>)
+  }
 
   return (
     <div>
@@ -16,12 +22,7 @@ export default function Card({title, subtitle, img, link}){
             </Link>
             <p className="mb-3 font-normal text-gray-400">{subtitle}</p>
             <ul className="max-w-md space-y-1 text-gray-300 list-disc list-inside text-left m-4">
-              <li>Django</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>Postgres SQL</li>
-              <li>Mongo DB</li>
+                {tags}
             </ul>
             <Link href={link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Read More
