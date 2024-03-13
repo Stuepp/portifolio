@@ -13,7 +13,18 @@ export default function Home(){
             <div className="flex items-center justify-center">
                 <ul className="text-center p-2">
                     <li>
-                        <ProjectDescription description={`"A record company has decided to create a database with the information about it's musician as well as other company information. The information given to the designer were:"`} />
+                        <ProjectDescription 
+                        description={`"A record company has decided to create a database with the information about it's musician as well as other company information. The information given to the designer were:"`}
+                        col1={[`Each artist has an id, name, address and a cell phone number. The musician at the beginning of their career they often
+                        share an address and, furthermore, it is assumed that each address only has one telephone number.`, `Each musician can belong to one or more bands.`,
+                            `Each musician can belong to one or more bands.`, `Each instrument used in the studios has a name (e.g. guitar, drums, etc.) and an internal code.`,
+                            `Each disc recorded at the company has a title, a date, a format (e.g. CD, MC, K7), and a disc identifier.`]}
+                        col2={[`Each song recorded by the company has a title and authors.`,
+                                `Each musician can play multiple instruments, and each instrument can be played by multiple musicians.`,
+                                `Each record belongs to a musician or a band and has a certain number of songs, but each song can appear on one or more records.`,
+                                `Each song can feature several musicians or bands, and each musician or panel can participate in several songs.`,
+                                `Each record has a producer. Producers can produce multiple records.`]}   
+                        />
                     </li>
                     <li>
                         <ProjectPoint question={'What did I learn?'} answear={`In this project I learned the frameworj Django, how to use it for the Front-End and how to connect it with a DB like postgress and MongoDB,
