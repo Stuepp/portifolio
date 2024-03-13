@@ -8,7 +8,7 @@ export default function AboutMe(){
 
   return(
     <div>
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
+      <div className="mx-auto max-w-2xl py-16">
       <Image src={me} width={width} height={height} alt='Arthurs dog' className='rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16 my-4' />
         <h1><strong>Front-End, Back-End or Fullstack</strong></h1>
         <div className='text-zinc-600'>
