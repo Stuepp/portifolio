@@ -2,7 +2,9 @@ import NavBar from "../../components/NavBar"
 import Image from 'next/image'
 
 export default function Home(){
-    let gravadoradesign = '/gravadora-design.jpg'
+    let gainTrackerEvaluation = '/evaluation.jpg'
+    let gainTrackerHome = '/home.jpg'
+    let gainTrackerTrainging = '/training.jpg'
     let gainTrackerDiagram = '/academia.drawio.png'
 
     return(
@@ -13,38 +15,32 @@ export default function Home(){
                     <li>
                         <h1 className="text-2xl">Summary of the Project</h1>
                         <div>
-                            <p>"A record company has decided to create a database with the information about it's musician as well as other company information.
-                                The information given to the designer were:"</p>
-                                <div className="flex my-2">
-                                <ul className="mx-auto max-w-md space-y-1 text-gray-300 list-disc list-inside text-center">
-                                    <li>Each artist has an id, name, address and a cell phone number. The musician at the beginning of their career they often
-                                        share an address and, furthermore, it is assumed that each address only has one telephone number.
-                                    </li>
-                                    <li>Each musician can belong to one or more bands.</li>
-                                    <li>Each instrument used in the studios has a name (e.g. guitar, drums, etc.) and an internal code.</li>
-                                    <li>Each disc recorded at the company has a title, a date, a format (e.g. CD, MC, K7), and a disc identifier.</li>
-                                </ul>
-                                <ul className="mx-auto max-w-md space-y-1 text-gray-300 list-disc list-inside text-center">
-                                    <li>Each song recorded by the company has a title and authors.</li>
-                                    <li>Each musician can play multiple instruments, and each instrument can be played by multiple musicians.</li>
-                                    <li>Each record belongs to a musician or a band and has a certain number of songs, but each song can appear on one or more records.</li>
-                                    <li>Each song can feature several musicians or bands, and each musician or panel can participate in several songs.</li>
-                                    <li>Each record has a producer. Producers can produce multiple records.</li>
-                                </ul>
-                                </div>
+                            <p>With the idea that a lot of people now days hit the gym, and would like to keep a progress of their personal development, we came with Gain Tracker,
+                                a simple web app where the user stores the training, exercise and body information, and with it the app would plot a graph of the user progress and
+                                also serves to keep the training stored so it don't have to be in a paper or saved as pdf.
+                            </p>
+                            <ul className="mx-auto my-2 max-w-md space-y-1 text-gray-300 list-disc list-inside text-center">
+                                <li>Each training has one or more exercises</li>
+                                <li>Each exercise has a history</li>
+                                <li>The user has its avaliation/evaluation of body</li>
+                                <li>Each exercise, training and evaluation has its own graph
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h1 className="text-2xl">What did I learn?</h1>
-                        <p className="mx-auto my-2 max-w-2xl space-y-1 text-gray-300">In this project I learned the frameworj Django, how to use it for the Front-End and how to connect it with a DB like postgress and MongoDB,
-                            using the framework I tried to make ma pages and components more abstract, making the form of the html the same but the content inside different.
+                        <p className="mx-auto my-2 max-w-2xl space-y-1 text-gray-300">
+                            In this project I didn't learn much in terms of new technologies, frameworks, but in I learned how to communicate better with my team,
+                            as the team was used to Django but each one was used to say different names for the same thing, or to say the same thing in a different way
+                            a lot of missunderstands happend but all fixed in no time, it was quite fun doing this project.
+                            I cannot left out, one of the most important things I learned, is to not set a too big of objective for the given X time.
                         </p>
                     </li>
                     <li>
                         <h1 className="text-2xl">What was the most difficult?</h1>
                         <p className="mx-auto my-2 max-w-2xl space-y-1 text-gray-300">
-                            I beleive the most difficult part that I passed was passing information between pages, "How can I inform the user is going for item X",
-                            "How can I pass this ID for that page?", "How can I pass this object for that page?"
+                            The most difficult part was to decide who would do what, when to work alone and when to work together, and the time problem that each one of us have.
                         </p>
                     </li>
                     <li>
@@ -58,16 +54,21 @@ export default function Home(){
                     <li>
                         <h1 className="text-2xl">What do I want to learn next?</h1>
                         <p className="mx-auto my-2 max-w-2xl space-y-1 text-gray-300">
-                            As I started looking for jobs I noticed a demmand for React, Angular, Typescript, MongoDB. So I aim to learn them, but I also aim to improve
-                            my coding skills, and if there is a way to code faster and with quality I would like to learn how too. So basically I aim to learn what is asked
-                            in the market but also to improve my base.
+                            In this project I noticed I should learn "how to code for others", and when going in a project to search how that technologie is commonly written,
+                            for example like_this_for_variables, LikeThisForConstants, Components, and the terms too. With that I beleive team work is bound to be more fluid.
                         </p>
                     </li>
                 </ul>
             </div>
             <div className="grid grid-cols-2">
-                    <Image src={gravadoradesign} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
+                <div>
+                    <Image src={gainTrackerHome} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
+                    <Image src={gainTrackerTrainging} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
+                </div>
+                <div>
+                    <Image src={gainTrackerEvaluation} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
                     <Image src={gainTrackerDiagram} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
+                </div>
             </div>
         </main>
     )
