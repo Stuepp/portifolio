@@ -9,10 +9,9 @@ export default function Home(){
 
     return(
         <main>
-            <NavBar />
             <div className="flex items-center justify-center">
                 <ul className="text-center p-2">
-                    <li>
+                    <li className="px-16">
                         <ProjectDescription 
                         description={`"A record company has decided to create a database with the information about it's musician as well as other company information. The information given to the designer were:"`}
                         col1={[`Each artist has an id, name, address and a cell phone number. The musician at the beginning of their career they often

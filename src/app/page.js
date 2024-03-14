@@ -4,7 +4,6 @@ import AboutMe from './components/AboutMe'
 export default function Home(){
     return(
         <main className="w-full">
-            <NavBar />
             <AboutMe />
         </main>
     )

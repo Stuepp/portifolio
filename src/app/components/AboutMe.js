@@ -10,7 +10,7 @@ export default function AboutMe(){
     <div>
       <div className="mx-auto max-w-2xl py-16 px-4">
       <Image src={me} width={width} height={height} alt='Arthurs dog' className='rounded-full bg-zinc-800 object-cover h-16 w-16 my-4' />
-        <h1><strong>Front-End, Back-End or Fullstack</strong></h1>
+        <h1 className='text-zinc-100'><strong>Front-End, Back-End or Fullstack</strong></h1>
         <div className='text-zinc-200'>
           <h2><strong>I'm Arthur Henrique Cavalcanti</strong> a software developer enthusiast, looking to improve my skills in Front-End and Back-End, aiming to be a Fullstack developer</h2>
           <p><strong>But I'm also an animal lover, scout , karate enthusiast and a basketball player</strong></p>

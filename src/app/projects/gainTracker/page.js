@@ -1,4 +1,3 @@
-import NavBar from "../../components/NavBar"
 import ProjectDescription from "@/app/components/ProjectDescription"
 import ProjectPoint from "@/app/components/ProojectPoint"
 import Image from 'next/image'
@@ -11,10 +10,9 @@ export default function Home(){
 
     return(
         <main>
-            <NavBar />
             <div className="flex items-center justify-center">
                 <ul className="text-center p-2">
-                    <li>
+                    <li className="px-16">
                         <ProjectDescription description={`With the idea that a lot of people now days hit the gym, and would like to keep a progress of their personal development, we came with Gain Tracker,
                                 a simple web app where the user stores the training, exercise and body information, and with it the app would plot a graph of the user progress and
                                 also serves to keep the training stored so it don't have to be in a paper or saved as pdf.`}
