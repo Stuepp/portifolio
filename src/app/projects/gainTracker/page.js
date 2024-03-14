@@ -30,13 +30,13 @@ export default function Home(){
                         <ProjectPoint question={'What was the most difficult?'} answear={`The most difficult part was to decide who would do what, when to work alone and when to work together, and the time problem that each one of us have.`}/>
                     </li>
                     <li>
-                        <ProjectPoint question={'How would I improve the project'} answear={`I woudl search for part were I can make them abstract, show in the Front-End more of the DB that was made, for example
+                        <ProjectPoint question={'How would I improve the project'} answear={`I would search for part were I can make them abstract, show in the Front-End more of the DB that was made, for example
                             the connections of each musician and bands to each instruments, who shared numbers and address and who not.
                             Would ask for more help for the UX too.`}/>
                     </li>
                     <li>
                         <ProjectPoint question={'What do I want to learn next?'} answear={`In this project I noticed I should learn "how to code for others", and when going in a project to search how that technologie is commonly written,
-                            for example like_this_for_variables, LikeThisForConstants, Components, and the terms too. With that I beleive team work is bound to be more fluid.`}/>
+                            for example like_this_for_variables, LikeThisForConstants, Components, and the terms too. With that I believe team work is bound to be more fluid.`}/>
                     </li>
                 </ul>
             </div>

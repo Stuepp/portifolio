@@ -30,16 +30,16 @@ export default function Home(){
                             using the framework I tried to make ma pages and components more abstract, making the form of the html the same but the content inside different.`} />
                     </li>
                     <li>
-                        <ProjectPoint question={'What was the most difficult?'} answear={`I beleive the most difficult part that I passed was passing information between pages, "How can I inform the user is going for item X",
+                        <ProjectPoint question={'What was the most difficult?'} answear={`I believe the most difficult part that I passed was passing information between pages, "How can I inform the user is going for item X",
                             "How can I pass this ID for that page?", "How can I pass this object for that page?"`} />
                     </li>
                     <li>
-                    <ProjectPoint question={'How would I improve the project'} answear={`I woudl search for part were I can make them abstract, show in the Front-End more of the DB that was made, for example
+                    <ProjectPoint question={'How would I improve the project'} answear={`I would search for part were I can make them abstract, show in the Front-End more of the DB that was made, for example
                             the connections of each musician and bands to each instruments, who shared numbers and address and who not.
                             Would ask for more help for the UX too.`} />
                     </li>
                     <li>
-                    <ProjectPoint question={'What do I want to learn next?'} answear={`As I started looking for jobs I noticed a demmand for React, Angular, Typescript, MongoDB. So I aim to learn them, but I also aim to improve
+                    <ProjectPoint question={'What do I want to learn next?'} answear={`As I started looking for jobs I noticed a demand for React, Angular, Typescript, MongoDB. So I aim to learn them, but I also aim to improve
                             my coding skills, and if there is a way to code faster and with quality I would like to learn how too. So basically I aim to learn what is asked
                             in the market but also to improve my base.`} />
                     </li>
