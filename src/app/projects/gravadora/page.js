@@ -16,7 +16,7 @@ export default function Home(){
                         description={`"A record company has decided to create a database with the information about it's musician as well as other company information. The information given to the designer were:"`}
                         col1={[`Each artist has an id, name, address and a cell phone number. The musician at the beginning of their career they often
                         share an address and, furthermore, it is assumed that each address only has one telephone number.`, `Each musician can belong to one or more bands.`,
-                            `Each musician can belong to one or more bands.`, `Each instrument used in the studios has a name (e.g. guitar, drums, etc.) and an internal code.`,
+                            `Each instrument used in the studios has a name (e.g. guitar, drums, etc.) and an internal code.`,
                             `Each disc recorded at the company has a title, a date, a format (e.g. CD, MC, K7), and a disc identifier.`]}
                         col2={[`Each song recorded by the company has a title and authors.`,
                                 `Each musician can play multiple instruments, and each instrument can be played by multiple musicians.`,
@@ -45,7 +45,7 @@ export default function Home(){
                     </li>
                 </ul>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid lg:grid-cols-2">
                     <Image src={gravadoradesign} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
                     <Image src={gravadoraDiagram} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
             </div>
