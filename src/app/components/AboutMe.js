@@ -7,8 +7,8 @@ export default function AboutMe(){
   let width = 512, height = 512
 
   return(
-    <div>
-      <div className="mx-auto max-w-2xl py-16 px-4">
+    <div className=''>
+      <div className="mx-auto max-w-2xl py-16 px-4 ">
       <Image src={me} width={width} height={height} alt='Arthurs dog' className='rounded-full bg-zinc-800 object-cover h-16 w-16 my-4' />
         <h1 className='text-zinc-100'><strong>Front-End, Back-End or Fullstack</strong></h1>
         <div className='text-zinc-200'>

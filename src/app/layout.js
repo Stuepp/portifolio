@@ -12,9 +12,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='bg-no-repeat bg-slate-900 bg-cover min-w-screen min-h-screen m-0 p-0 '>
-        <NavBar />
-        {children}
-        </body>
+        <div className="flex w-full">
+          <div className="relative flex w-full flex-col">
+              <NavBar />
+              <main className="flex-auto">
+                {children}
+              </main>
+              <footer>
+              </footer>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }

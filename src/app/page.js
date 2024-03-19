@@ -3,8 +3,8 @@ import AboutMe from './components/AboutMe'
 
 export default function Home(){
     return(
-        <main className="w-full">
+        <div className="w-full">
             <AboutMe />
-        </main>
+        </div>
     )
 }
