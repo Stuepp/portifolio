@@ -8,6 +8,7 @@ export default function NavBar() {
                     <Link href={'/'} className="text-lg font-semibold leading-6 text-gray-900">Home</Link>
                     
                     <Link href={'/projects'} className="text-lg font-semibold leading-6 text-gray-900">Projects</Link>
+                    <Link href={'https://github.com/Stuepp/portifolio'} className="text-lg font-semibold leading-6 text-gray-900">Check me on Github</Link>
                 </div>
             </nav>
         </header>
