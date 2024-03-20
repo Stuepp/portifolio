@@ -14,7 +14,7 @@ export default function Card({title, subtitle, img, link, gitlink, techs}){
     <div>
       <div className="w-sm border rounded-lg shadow bg-gray-800 border-gray-700 m-4">
           <Link href={link}>
-            <Image src={img} width={700} height={500} alt='Gravadora diagram' className='rounded-t-lg w-full' />
+            <Image src={img} width={600} height={500} alt='Gravadora diagram' className=' p-2 rounded-lg' />
           </Link>
           <div className="p-5">
             <Link href={link} className="text-sm font-semibold leading-6 text-gray-900">
