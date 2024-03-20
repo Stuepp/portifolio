@@ -9,8 +9,28 @@
     ]},
     {"col2": []}
   ],
-  "What did I learn?": "In this project I didn't learn much in terms of new technologies, frameworks, but in I learned how to communicate better with my team, as the team was used to Django but each one was used to say different names for the same thing, or to say the same thing in a different way a lot of missunderstands happend but all fixed in no time, it was quite fun doing this project. I cannot left out, one of the most important things I learned, is to not set a too big of objective for the given X time.",
-  "What was the most difficult?":"The most difficult part was to decide who would do what, when to work alone and when to work together, and the time problem that each one of us have.",
-  "How would I improve the project?":"I would search for part were I can make them abstract, show in the Front-End more of the DB that was made, for example the connections of each musician and bands to each instruments, who shared numbers and address and who not. Would ask for more help for the UX too.",
-  "What do I want to learn next?":"In this project I noticed I should learn \"how to code for others\", and when going in a project to search how that technologie is commonly written, for example like_this_for_variables, LikeThisForConstants, Components, and the terms too. With that I believe team work is bound to be more fluid."
+  "points":[
+    {"point1":{
+      "question":"What did I learn?",
+      "answear": "In this project I didn't learn much in terms of new technologies, frameworks, but in I learned how to communicate better with my team, as the team was used to Django but each one was used to say different names for the same thing, or to say the same thing in a different way a lot of missunderstands happend but all fixed in no time, it was quite fun doing this project. I cannot left out, one of the most important things I learned, is to not set a too big of objective for the given X time."
+    }},
+    {"point2":{
+      "question":"What was the most difficult?",
+      "answear":"The most difficult part was to decide who would do what, when to work alone and when to work together, and the time problem that each one of us have."
+    }},
+    {"point3":{
+      "question":"How would I improve the project?",
+      "answear":"I would search for part were I can make them abstract, show in the Front-End more of the DB that was made, for example the connections of each musician and bands to each instruments, who shared numbers and address and who not. Would ask for more help for the UX too."
+    }},
+    {"point4":{
+      "question":"What do I want to learn next?",
+      "answear":"In this project I noticed I should learn \"how to code for others\", and when going in a project to search how that technologie is commonly written, for example like_this_for_variables, LikeThisForConstants, Components, and the terms too. With that I believe team work is bound to be more fluid."
+    }}
+  ],
+  "images":[
+    {"UML": "/academia.drawio.png"},
+    {"img1":"/home.jpg"},
+    {"img2":"/training.jpg"},
+    {"img3":"/evaluation.jpg"}
+  ]
 }

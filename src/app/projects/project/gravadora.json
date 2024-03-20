@@ -32,5 +32,9 @@
       "question":"What do I want to learn next?",
       "answear":"As I started looking for jobs I noticed a demand for React, Angular, Typescript, MongoDB. So I aim to learn them, but I also aim to improve my coding skills, and if there is a way to code faster and with quality I would like to learn how too. So basically I aim to learn what is asked in the market but also to improve my base."
     }}
+  ],
+  "images":[
+    {"UML": "/gravadora.png"},
+    {"img1":"/gravadora-design.jpg"}
   ]
 }

@@ -1,9 +1,13 @@
-import NavBar from "../../components/NavBar"
 import ProjectDescription from "@/app/components/ProjectDescription"
 import ProjectPoint from "@/app/components/ProojectPoint"
 import Image from 'next/image'
 
-export default function Home(){
+export default function Home({
+    searchParams,}= {
+    searchParams:{
+        name
+    }
+}){
     let gravadoradesign = '/gravadora-design.jpg'
     let gravadoraDiagram = '/gravadora.png'
 
