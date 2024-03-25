@@ -58,9 +58,9 @@ export default function CommonProjectPage({
 
   for(let i = 1; i < jsonData.images.length; i++){
     const propertyName = `img${i}`
-    let imgSrc = jsonData.images[i][propertyName]
+    let imgSrc = jsonData.images[i][propertyName], lastimg = jsonData.images.length -1
     
-    if(i == jsonData.images.length -1){
+    if(i == lastimg){ // check if is last img
       console.log(i)
       console.log(jsonData.images.length)
       images.push(
@@ -69,7 +69,7 @@ export default function CommonProjectPage({
       break
     }
     images.push(
-      <img src={imgSrc} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
+      <img src={imgSrc} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full col-span-2 lg:col-span-1' />
     )
   }
   let Diagram = jsonData.images[0].UML
@@ -94,7 +94,7 @@ export default function CommonProjectPage({
           <p>UML</p>
         </div>
         <ProjectPoint question={'Apparence'} />
-        <div className="grid lg:grid-cols-2 lg:gap-4">
+        <div className="grid p-4 gap-4 lg:grid-cols-2">
             {images}
         </div>
       </div>
