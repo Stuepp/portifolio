@@ -59,6 +59,15 @@ export default function CommonProjectPage({
   for(let i = 1; i < jsonData.images.length; i++){
     const propertyName = `img${i}`
     let imgSrc = jsonData.images[i][propertyName]
+    
+    if(i == jsonData.images.length -1){
+      console.log(i)
+      console.log(jsonData.images.length)
+      images.push(
+        <img src={imgSrc} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full col-span-2' />
+      )
+      break
+    }
     images.push(
       <img src={imgSrc} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full' />
     )
