@@ -18,10 +18,10 @@ export default function ProjectDescription({description, col1, col2}){
   return(
     <div>
       <h1 className="text-2xl text-zinc-100">Summary of the Proejct</h1>
-      <div>
+      <div className="text-zinc-200">
         <p>{description}</p>
         <div className="lg:flex my-2">
-          <ul className="mx-auto max-w-md space-y-1 text-zinc-200 list-disc list-inside text-center">
+          <ul className="mx-auto max-w-md space-y-1 list-disc list-inside text-center">
               {tags1}
           </ul>
           <ul className={state}>

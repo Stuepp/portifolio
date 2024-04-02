@@ -64,12 +64,12 @@ export default function CommonProjectPage({
       console.log(i)
       console.log(jsonData.images.length)
       images.push(
-        <img src={imgSrc} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full col-span-2' />
+        <img src={imgSrc} width={700} height={500} alt='' className='rounded-t-lg w-full col-span-2' />
       )
       break
     }
     images.push(
-      <img src={imgSrc} width={700} height={500} alt='Gravadora Design' className='rounded-t-lg w-full col-span-2 lg:col-span-1' />
+      <img src={imgSrc} width={700} height={500} alt='' className='rounded-t-lg w-full col-span-2 lg:col-span-1' />
     )
   }
   let Diagram = jsonData.images[0].UML
