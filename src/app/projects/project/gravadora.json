@@ -18,11 +18,11 @@
   "points":[
     {"point1":{
       "question":"What did I learn?",
-      "answear": "In this project I learned the frameworj Django, how to use it for the Front-End and how to connect it with a DB like postgress and MongoDB, using the framework I tried to make ma pages and components more abstract, making the form of the html the same but the content inside different."
+      "answear": "In this project I learned the framework Django, how to use it for the Front-End and how to connect it with a DB like postgress and MongoDB, using the framework I tried to make pages and components more abstract, keeping the structure the same but the content inside different."
     }},
     {"point2":{
       "question":"What was the most difficult?",
-      "answear":"I believe the most difficult part that I passed was passing information between pages, \"How can I inform the user is going for item X\", \"How can I pass this ID for that page?\", \"How can I pass this object for that page?\""
+      "answear":"I believe the most difficult part was passing information between pages, \"How can I inform the user is going for item X\", \"How can I pass this ID for that page?\", \"How can I pass this object for that page?\""
     }},
     {"point3":{
       "question":"How would I improve the project?",
